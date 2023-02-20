@@ -12,9 +12,9 @@ Pythonがインストール済みの環境で`requirements.txt`に記載され�
 
 コードを実行する前に、`websocket-client.py`内の以下の項目を修正する必要があります。
 ```python
-user = ""
-password = ""
-camera_ip = ""
+USER = ""
+PASSWORD = ""
+CAMERA_IP = ""
 ```
 
 提供されたユーザー名とパスワード、そしてカメラのIPアドレスを入力し、Pythonで`Websocket-client.py`を実行します。

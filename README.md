@@ -1,6 +1,6 @@
 # BATCAM FX Python Example
 
-한국어 README는 [여기](README-KR.md)에서 확인할 수 있습니다.
+한국어 README는 [여기](README-KR.md)에서 확인할 수 있습니다.<br>
 日本語のREADMEは[こちら](README-JP.md)
 
 ## Summary
@@ -15,9 +15,9 @@ From PC with Python installed, install dependencies with `requirements.txt` file
 
 Before executing code, you should edit parameters in `websocket-client.py`
 ```python
-user = ""
-password = ""
-camera_ip = ""
+USER = ""
+PASSWORD = ""
+CAMERA_IP = ""
 ```
 
 Edit `websocket-client.py` with provided username, password and camera ip address, run `websocket-client.py` with Python.

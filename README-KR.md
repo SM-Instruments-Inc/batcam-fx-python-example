@@ -12,9 +12,9 @@ Python 이 설치된 컴퓨터에서, 편한 방법으로 `requirements.txt` 파
 
 코드를 실행하기 전에, `websocket-client` 내의 인자들을 수정해야 합니다.
 ```python
-user = ""
-password = ""
-camera_ip = ""
+USER = ""
+PASSWORD = ""
+CAMERA_IP = ""
 ```
 
 제공받은 사용자명과 비밀번호, 그리고 카메라의 주소를 입력하고, python을 통해 `websocket-client.py` 를 실행합니다.
