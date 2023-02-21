@@ -21,7 +21,7 @@ def convert_raw_2_db_scale(raw_data, gain):
     raw_data : ndarray
         The raw bf data sent from BATCAM FX
     gain : int
-        The raw bf data sent from BATCAM FX
+        Microphone gain value set in BATCAM FX.
 
     Returns
     ----------
