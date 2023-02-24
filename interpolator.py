@@ -1,5 +1,5 @@
 """
-* numpy: BF Data 연산을 위해 필요
+* numpy: The module needed for calculating BF Data
 * matplotlib: The module for visualizing results
 * cv2: The module for resizing ndarray.
 * numba: The module for caching python code into c++ for speeding up python code.
