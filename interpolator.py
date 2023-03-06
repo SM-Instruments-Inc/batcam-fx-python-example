@@ -28,6 +28,7 @@ def convert_raw_2_db_scale(raw_data, gain):
     dB_scale : ndarray
         dB Scale data converted from input BF Data
     """
+    gain = 1 if gain == 0 else gain
     return raw_data / (gain * gain) * 0.00031921
 
 
